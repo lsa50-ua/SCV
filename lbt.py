@@ -35,6 +35,7 @@ def menuUsuario():
     global lista_fallos, usuario_logueado
 
     while True:
+        print()
         print("\n** Menú de Usuario **")
         print("1. Crear un nuevo aviso de fallo")
         print("2. Seguir un aviso de fallo")
@@ -42,6 +43,7 @@ def menuUsuario():
         print("4. Ver mis avisos de fallo")
         print("5. Buscar avisos de fallo")
         print("6. Cerrar sesión")
+        print()
 
         if usuario_logueado:
             if usuario_logueado.isAdmin:
@@ -157,6 +159,7 @@ def main():
 
     op = ""
     while op != "3":
+        print()
         print("******************************************************************")
         print("Bienvenido al Local Bug Tracker, escoja una opción del menú")
         print("******************************************************************")
