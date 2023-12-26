@@ -172,6 +172,7 @@ def main():
         print()
         print("******************************************************************")
         print()
+        print()
 
         if op == "1":
             nombre = input("Introduce nombre usuario: ")
