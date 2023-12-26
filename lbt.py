@@ -50,7 +50,7 @@ def menuUsuario():
                 print("8. Borrar un aviso de fallo como administrador")
 
         opcion = input("Selecciona una opción: ")
-
+"""
         if opcion == "1":
             nombre_fallo = input("Nombre del fallo: ")
             descripcion_fallo = input("Descripción del fallo: ")
@@ -136,7 +136,7 @@ def menuUsuario():
 
         else:
             print("Opción no válida. Por favor, elige una opción del menú.")
-
+"""
 def buscarAvisosPorTexto(texto):
     resultados = []
     for index, fallo in enumerate(lista_fallos):
