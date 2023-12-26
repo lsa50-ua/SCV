@@ -2,6 +2,7 @@
 
 import sys
 
+
 class Usuario:
     def __init__(self, nombre, contraseña, isAdmin=False):
         self.nombre = nombre
